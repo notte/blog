@@ -1,0 +1,95 @@
+# 主設定
+favicon: 🎮
+title: yoyo's blog
+subtitle: ''
+description: ''
+keywords: JavaScript, Vue, Front-end
+author: Yoyo
+language: en
+timezone: ''
+
+# URL 設定
+url: http://example.com
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+
+# 資料夾
+source_dir: source # 開發中
+public_dir: public # 編譯後
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# 編輯（撰寫文章）
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+  prismjs:
+  preprocess: true
+
+# default_category
+default_category: uncategorized
+category_map: 
+tag_map: 
+
+# Date / Time format
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# Pagination
+per_page: 10
+pagination_dir: page
+
+# Themes
+theme: aomori
+
+# 包含 & 排除
+include:
+exclude:
+ignore:
+
+# 首頁設定
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# 套件設定
+
+# Menu
+aomori_menu:
+  Home: /
+  Archives: /archives
+  About: /about
+
+aomori_widgets:
+  - toc
+  - category 
+  - tag
+  - archive
+
+aomori_copyright: false
